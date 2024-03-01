@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+    color: #fff;
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#wrapper h1{
+    font-size: 40px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: black;
+}
+#wrapper p{
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: black;
+}
+.from{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.from #guess{
+    margin: 10px;
+    font-size: 30px;
+    padding: 20px;
+    background-color: black;
+}
+.from #guessFeild{
+    margin: 5px;
+    padding: 10px;
+    
+}
+.from #subt{
+    margin: 5px;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.from #subt:hover{
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+}
+
+
+
+
